@@ -22,3 +22,5 @@ d = {'col1': [1, 2], 'col2': [3, 4]}
 df = pd.DataFrame(data=d)
 new = df[['col2']]
 print(new.head())
+
+# pezzo tolto allMadrid['BEN'].mean(),allMadrid['CO'].mean(),allMadrid['EBE'].mean(),allMadrid['NMHC'].mean(),allMadrid['NO'].mean(),allMadrid['NO_2'].mean(),allMadrid['O_3'].mean(), ,allMadrid['SO_2'].mean(),allMadrid['TCH'].mean(),allMadrid['TOL'].mean()
