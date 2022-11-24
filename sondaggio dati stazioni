@@ -1,0 +1,509 @@
+28079004
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 90480 entries, 2008-06-01 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      0 non-null      float64
+ 1   CO       90061 non-null  float64
+ 2   EBE      0 non-null      float64
+ 3   NMHC     0 non-null      float64
+ 4   NO       90262 non-null  float64
+ 5   NO_2     90148 non-null  float64
+ 6   O_3      17402 non-null  float64
+ 7   PM10     17311 non-null  float64
+ 8   PM25     0 non-null      float64
+ 9   SO_2     90168 non-null  float64
+ 10  TCH      0 non-null      float64
+ 11  TOL      0 non-null      float64
+ 12  station  90480 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 9.7 MB
+28079008
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 90240 entries, 2008-06-01 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      88225 non-null  float64
+ 1   CO       89701 non-null  float64
+ 2   EBE      88152 non-null  float64
+ 3   NMHC     73067 non-null  float64
+ 4   NO       89748 non-null  float64
+ 5   NO_2     89523 non-null  float64
+ 6   O_3      89494 non-null  float64
+ 7   PM10     87067 non-null  float64
+ 8   PM25     73664 non-null  float64
+ 9   SO_2     89595 non-null  float64
+ 10  TCH      73065 non-null  float64
+ 11  TOL      87869 non-null  float64
+ 12  station  90240 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 9.6 MB
+28079011
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 90504 entries, 2008-06-01 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      72677 non-null  float64
+ 1   CO       17386 non-null  float64
+ 2   EBE      72648 non-null  float64
+ 3   NMHC     15849 non-null  float64
+ 4   NO       90280 non-null  float64
+ 5   NO_2     90218 non-null  float64
+ 6   O_3      17375 non-null  float64
+ 7   PM10     17418 non-null  float64
+ 8   PM25     0 non-null      float64
+ 9   SO_2     17406 non-null  float64
+ 10  TCH      15849 non-null  float64
+ 11  TOL      72465 non-null  float64
+ 12  station  90504 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 9.7 MB
+28079016
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 90528 entries, 2008-06-01 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      0 non-null      float64
+ 1   CO       90167 non-null  float64
+ 2   EBE      0 non-null      float64
+ 3   NMHC     0 non-null      float64
+ 4   NO       90349 non-null  float64
+ 5   NO_2     90299 non-null  float64
+ 6   O_3      90156 non-null  float64
+ 7   PM10     17454 non-null  float64
+ 8   PM25     0 non-null      float64
+ 9   SO_2     17501 non-null  float64
+ 10  TCH      0 non-null      float64
+ 11  TOL      0 non-null      float64
+ 12  station  90528 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 9.7 MB
+28079017
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 75408 entries, 2009-10-01 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      0 non-null      float64
+ 1   CO       0 non-null      float64
+ 2   EBE      0 non-null      float64
+ 3   NMHC     0 non-null      float64
+ 4   NO       75113 non-null  float64
+ 5   NO_2     75032 non-null  float64
+ 6   O_3      74450 non-null  float64
+ 7   PM10     0 non-null      float64
+ 8   PM25     0 non-null      float64
+ 9   SO_2     74975 non-null  float64
+ 10  TCH      0 non-null      float64
+ 11  TOL      0 non-null      float64
+ 12  station  75408 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 8.1 MB
+
+
+28079018
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 90048 entries, 2008-06-01 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      70546 non-null  float64
+ 1   CO       89678 non-null  float64
+ 2   EBE      70517 non-null  float64
+ 3   NMHC     0 non-null      float64
+ 4   NO       89638 non-null  float64
+ 5   NO_2     89543 non-null  float64
+ 6   O_3      89636 non-null  float64
+ 7   PM10     89297 non-null  float64
+ 8   PM25     0 non-null      float64
+ 9   SO_2     89554 non-null  float64
+ 10  TCH      0 non-null      float64
+ 11  TOL      70327 non-null  float64
+ 12  station  90048 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 9.6 MB
+28079024
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 90264 entries, 2008-06-01 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      86159 non-null  float64
+ 1   CO       89159 non-null  float64
+ 2   EBE      86204 non-null  float64
+ 3   NMHC     88085 non-null  float64
+ 4   NO       89745 non-null  float64
+ 5   NO_2     89260 non-null  float64
+ 6   O_3      89049 non-null  float64
+ 7   PM10     88713 non-null  float64
+ 8   PM25     88186 non-null  float64
+ 9   SO_2     89225 non-null  float64
+ 10  TCH      88092 non-null  float64
+ 11  TOL      86147 non-null  float64
+ 12  station  90264 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 9.6 MB
+28079027
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 90552 entries, 2008-06-01 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      16712 non-null  float64
+ 1   CO       0 non-null      float64
+ 2   EBE      16708 non-null  float64
+ 3   NMHC     54070 non-null  float64
+ 4   NO       90405 non-null  float64
+ 5   NO_2     90203 non-null  float64
+ 6   O_3      72702 non-null  float64
+ 7   PM10     17473 non-null  float64
+ 8   PM25     0 non-null      float64
+ 9   SO_2     17461 non-null  float64
+ 10  TCH      54070 non-null  float64
+ 11  TOL      16684 non-null  float64
+ 12  station  90552 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 9.7 MB
+
+28079035
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 63792 entries, 2011-11-01 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      0 non-null      float64
+ 1   CO       63401 non-null  float64
+ 2   EBE      0 non-null      float64
+ 3   NMHC     0 non-null      float64
+ 4   NO       63438 non-null  float64
+ 5   NO_2     63441 non-null  float64
+ 6   O_3      63270 non-null  float64
+ 7   PM10     0 non-null      float64
+ 8   PM25     0 non-null      float64
+ 9   SO_2     63118 non-null  float64
+ 10  TCH      0 non-null      float64
+ 11  TOL      0 non-null      float64
+ 12  station  63792 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 6.8 MB
+
+28079036
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 90024 entries, 2008-06-01 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      0 non-null      float64
+ 1   CO       89758 non-null  float64
+ 2   EBE      0 non-null      float64
+ 3   NMHC     0 non-null      float64
+ 4   NO       89806 non-null  float64
+ 5   NO_2     89764 non-null  float64
+ 6   O_3      17393 non-null  float64
+ 7   PM10     89470 non-null  float64
+ 8   PM25     0 non-null      float64
+ 9   SO_2     89764 non-null  float64
+ 10  TCH      0 non-null      float64
+ 11  TOL      0 non-null      float64
+ 12  station  90024 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 9.6 MB
+28079038
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 90504 entries, 2008-06-01 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      71690 non-null  float64
+ 1   CO       17502 non-null  float64
+ 2   EBE      70999 non-null  float64
+ 3   NMHC     0 non-null      float64
+ 4   NO       90332 non-null  float64
+ 5   NO_2     90193 non-null  float64
+ 6   O_3      17332 non-null  float64
+ 7   PM10     90029 non-null  float64
+ 8   PM25     89408 non-null  float64
+ 9   SO_2     90229 non-null  float64
+ 10  TCH      0 non-null      float64
+ 11  TOL      71507 non-null  float64
+ 12  station  90504 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 9.7 MB
+28079039
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 90528 entries, 2008-06-01 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      0 non-null      float64
+ 1   CO       90083 non-null  float64
+ 2   EBE      0 non-null      float64
+ 3   NMHC     0 non-null      float64
+ 4   NO       90204 non-null  float64
+ 5   NO_2     90151 non-null  float64
+ 6   O_3      90089 non-null  float64
+ 7   PM10     17364 non-null  float64
+ 8   PM25     0 non-null      float64
+ 9   SO_2     17440 non-null  float64
+ 10  TCH      0 non-null      float64
+ 11  TOL      0 non-null      float64
+ 12  station  90528 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 9.7 MB
+28079040
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 90336 entries, 2008-06-01 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      0 non-null      float64
+ 1   CO       17476 non-null  float64
+ 2   EBE      0 non-null      float64
+ 3   NMHC     0 non-null      float64
+ 4   NO       90091 non-null  float64
+ 5   NO_2     90008 non-null  float64
+ 6   O_3      17456 non-null  float64
+ 7   PM10     89599 non-null  float64
+ 8   PM25     0 non-null      float64
+ 9   SO_2     89936 non-null  float64
+ 10  TCH      0 non-null      float64
+ 11  TOL      0 non-null      float64
+ 12  station  90336 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 9.6 MB
+
+28079047
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 73272 entries, 2009-12-21 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      0 non-null      float64
+ 1   CO       0 non-null      float64
+ 2   EBE      0 non-null      float64
+ 3   NMHC     0 non-null      float64
+ 4   NO       73079 non-null  float64
+ 5   NO_2     73077 non-null  float64
+ 6   O_3      0 non-null      float64
+ 7   PM10     72779 non-null  float64
+ 8   PM25     72420 non-null  float64
+ 9   SO_2     0 non-null      float64
+ 10  TCH      0 non-null      float64
+ 11  TOL      0 non-null      float64
+ 12  station  73272 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 7.8 MB
+28079048
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 69288 entries, 2010-08-01 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      0 non-null      float64
+ 1   CO       0 non-null      float64
+ 2   EBE      0 non-null      float64
+ 3   NMHC     0 non-null      float64
+ 4   NO       69012 non-null  float64
+ 5   NO_2     69009 non-null  float64
+ 6   O_3      0 non-null      float64
+ 7   PM10     68012 non-null  float64
+ 8   PM25     67512 non-null  float64
+ 9   SO_2     0 non-null      float64
+ 10  TCH      0 non-null      float64
+ 11  TOL      0 non-null      float64
+ 12  station  69288 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 7.4 MB
+28079049
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 73008 entries, 2010-03-01 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      0 non-null      float64
+ 1   CO       0 non-null      float64
+ 2   EBE      0 non-null      float64
+ 3   NMHC     0 non-null      float64
+ 4   NO       72695 non-null  float64
+ 5   NO_2     72692 non-null  float64
+ 6   O_3      72746 non-null  float64
+ 7   PM10     0 non-null      float64
+ 8   PM25     0 non-null      float64
+ 9   SO_2     0 non-null      float64
+ 10  TCH      0 non-null      float64
+ 11  TOL      0 non-null      float64
+ 12  station  73008 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 7.8 MB
+28079050
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 71376 entries, 2010-03-01 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      0 non-null      float64
+ 1   CO       0 non-null      float64
+ 2   EBE      0 non-null      float64
+ 3   NMHC     0 non-null      float64
+ 4   NO       70891 non-null  float64
+ 5   NO_2     70720 non-null  float64
+ 6   O_3      0 non-null      float64
+ 7   PM10     69636 non-null  float64
+ 8   PM25     69054 non-null  float64
+ 9   SO_2     0 non-null      float64
+ 10  TCH      0 non-null      float64
+ 11  TOL      0 non-null      float64
+ 12  station  71376 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 7.6 MB
+28079054
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 73512 entries, 2009-12-11 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      0 non-null      float64
+ 1   CO       0 non-null      float64
+ 2   EBE      0 non-null      float64
+ 3   NMHC     0 non-null      float64
+ 4   NO       73227 non-null  float64
+ 5   NO_2     73191 non-null  float64
+ 6   O_3      73039 non-null  float64
+ 7   PM10     0 non-null      float64
+ 8   PM25     0 non-null      float64
+ 9   SO_2     0 non-null      float64
+ 10  TCH      0 non-null      float64
+ 11  TOL      0 non-null      float64
+ 12  station  73512 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 7.9 MB
+28079055
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 72552 entries, 2010-03-01 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      66614 non-null  float64
+ 1   CO       0 non-null      float64
+ 2   EBE      66593 non-null  float64
+ 3   NMHC     71151 non-null  float64
+ 4   NO       72317 non-null  float64
+ 5   NO_2     72272 non-null  float64
+ 6   O_3      0 non-null      float64
+ 7   PM10     71949 non-null  float64
+ 8   PM25     0 non-null      float64
+ 9   SO_2     0 non-null      float64
+ 10  TCH      71154 non-null  float64
+ 11  TOL      66225 non-null  float64
+ 12  station  72552 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 7.7 MB
+28079056
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 72264 entries, 2010-03-01 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      0 non-null      float64
+ 1   CO       71814 non-null  float64
+ 2   EBE      0 non-null      float64
+ 3   NMHC     0 non-null      float64
+ 4   NO       71861 non-null  float64
+ 5   NO_2     71745 non-null  float64
+ 6   O_3      71744 non-null  float64
+ 7   PM10     2756 non-null   float64
+ 8   PM25     2760 non-null   float64
+ 9   SO_2     0 non-null      float64
+ 10  TCH      0 non-null      float64
+ 11  TOL      0 non-null      float64
+ 12  station  72264 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 7.7 MB
+28079057
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 73656 entries, 2009-12-01 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      0 non-null      float64
+ 1   CO       73296 non-null  float64
+ 2   EBE      0 non-null      float64
+ 3   NMHC     0 non-null      float64
+ 4   NO       73464 non-null  float64
+ 5   NO_2     73410 non-null  float64
+ 6   O_3      0 non-null      float64
+ 7   PM10     73427 non-null  float64
+ 8   PM25     0 non-null      float64
+ 9   SO_2     73399 non-null  float64
+ 10  TCH      0 non-null      float64
+ 11  TOL      0 non-null      float64
+ 12  station  73656 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 7.9 MB
+28079058
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 73704 entries, 2009-12-01 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      0 non-null      float64
+ 1   CO       0 non-null      float64
+ 2   EBE      0 non-null      float64
+ 3   NMHC     19338 non-null  float64
+ 4   NO       73381 non-null  float64
+ 5   NO_2     73358 non-null  float64
+ 6   O_3      73144 non-null  float64
+ 7   PM10     0 non-null      float64
+ 8   PM25     0 non-null      float64
+ 9   SO_2     0 non-null      float64
+ 10  TCH      19794 non-null  float64
+ 11  TOL      0 non-null      float64
+ 12  station  73704 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 7.9 MB
+28079059
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 73296 entries, 2009-12-14 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      0 non-null      float64
+ 1   CO       0 non-null      float64
+ 2   EBE      0 non-null      float64
+ 3   NMHC     0 non-null      float64
+ 4   NO       72968 non-null  float64
+ 5   NO_2     72910 non-null  float64
+ 6   O_3      72918 non-null  float64
+ 7   PM10     0 non-null      float64
+ 8   PM25     0 non-null      float64
+ 9   SO_2     0 non-null      float64
+ 10  TCH      0 non-null      float64
+ 11  TOL      0 non-null      float64
+ 12  station  73296 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 7.8 MB
+28079060
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 72048 entries, 2010-03-01 01:00:00 to 2018-02-01 00:00:00
+Data columns (total 13 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   BEN      0 non-null      float64
+ 1   CO       0 non-null      float64
+ 2   EBE      0 non-null      float64
+ 3   NMHC     0 non-null      float64
+ 4   NO       71915 non-null  float64
+ 5   NO_2     71757 non-null  float64
+ 6   O_3      71668 non-null  float64
+ 7   PM10     71721 non-null  float64
+ 8   PM25     0 non-null      float64
+ 9   SO_2     0 non-null      float64
+ 10  TCH      0 non-null      float64
+ 11  TOL      0 non-null      float64
+ 12  station  72048 non-null  int64
+dtypes: float64(12), int64(1)
+memory usage: 7.7 MB
