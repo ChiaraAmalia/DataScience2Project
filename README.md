@@ -107,10 +107,10 @@ questo campo contiene il rilevamento del livello di ossidi di azoto. Il livello 
 Per poter proseguire con il nostro progetto abbiamo dovuto eseguire una fase di ETL (*Extraction, Transfor-mation, Load*).
 
 Come prima cosa abbiamo analizzato i dati visivamente, per capire se tutti i file del nostro dataset erano conformi tra di loro e non presentavano anomalie, poi abbiamo effettuato la vera e propria "pulizia dei dati". 
-![](https://github.com/Simone-Scalella/DataScience2Project/tree/main/img_doc/etl1.png)
+![](https://github.com/Simone-Scalella/DataScience2Project/blob/main/img_doc/etl1.png)
 
 Il dataset era composto da un file CSV per ogni anno, quindi, per una maggiore comodità abbiamo deciso di unificare tale csv in un unico dataframe.
-![](https://github.com/Simone-Scalella/DataScience2Project/tree/main/img_doc/etl2.png)
+![](https://github.com/Simone-Scalella/DataScience2Project/blob/main/img_doc/etl2.png)
 
 
 ## Tecnologie utilizzate
