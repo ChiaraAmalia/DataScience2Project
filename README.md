@@ -101,7 +101,16 @@ questo campo contiene il rilevamento del livello di ossidi di azoto. Il livello 
 
 </table>
 
+[Link](https://www.kaggle.com/datasets/decide-soluciones/air-quality-madrid) al dataset su kaggle
+
 ## Fase di ETL
+Per poter proseguire con il nostro progetto abbiamo dovuto eseguire una fase di ETL (*Extraction, Transfor-mation, Load*).
+
+Come prima cosa abbiamo analizzato i dati visivamente, per capire se tutti i file del nostro dataset erano conformi tra di loro e non presentavano anomalie, poi abbiamo effettuato la vera e propria "pulizia dei dati". 
+
+Il dataset era composto da un file CSV per ogni anno, quindi, per una maggiore comodità abbiamo deciso di unificare tale csv in un unico dataframe.
+
+
 
 ## Tecnologie utilizzate
 ### Python
