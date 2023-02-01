@@ -142,7 +142,15 @@ Per definire il modello sono stati utilizzati degli algoritmi messi a disposizio
 </ul>
   
 ## Serie Temporali
-In questa fase di analisi si è proceduto all'utilizzo delle serie temporali mediante la visualizzazione di trend e previsioni che possono essere realizzate con specifici algoritmi. Nella fase di ETL è risultato anche in questo caso necessario il trattamento dei valori considerando una media giornaliera di essi, per ciascun agente.
+In questa fase di analisi si è proceduto all'utilizzo delle serie temporali mediante la visualizzazione di trend e previsioni che possono essere realizzate con specifici algoritmi. Nella fase di ETL è risultato anche in questo caso necessario il trattamento dei valori considerando una media giornaliera di essi, per ciascun agente, di seguito anche mensile. Si è deciso di effettuare le seguenti analisi (effettuate sia raggruppando i dati giornalmente che mensilmente):
+<ul>
+  <li>Stazionarietà</li>
+  <li>Autocorrelazione e correlazione parziale</li>
+  <li>Modello ARIMA</li>
+  <li>Predizione in-sample</li>
+  <li>Metriche di valutazione: MAE, MAPE, MSE, R-squared</li>
+  <li>Predizione out-sample</li>
+</ul>
 
 ## Tecnologie utilizzate
 <ul>
