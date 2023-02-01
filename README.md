@@ -107,22 +107,36 @@ questo campo contiene il rilevamento del livello di ossidi di azoto. Il livello 
 Per poter proseguire con il nostro progetto abbiamo dovuto eseguire una fase di ETL (*Extraction, Transfor-mation, Load*).
 
 Come prima cosa abbiamo analizzato i dati visivamente, per capire se tutti i file del nostro dataset erano conformi tra di loro e non presentavano anomalie, poi abbiamo effettuato la vera e propria "pulizia dei dati". 
-![](https://github.com/Simone-Scalella/DataScience2Project/blob/main/img_doc/etl1.png)
 
 Il dataset era composto da un file CSV per ogni anno, quindi, per una maggiore comodità abbiamo deciso di unificare tale csv in un unico dataframe.
-![](https://github.com/Simone-Scalella/DataScience2Project/blob/main/img_doc/etl2.png)
 
+## Analisi Descrittiva
+Durante lo step successivo andremo a realizzare delle analisi di tipo descrittivo. Le analisi descrittive, così come suggerisce il nome, sintetizzano o descrivono i dati e creano dei risultati che sono interpretabili dagli esseri umani. I valori risultati più interessanti da studiare sono risultati quelli relativi al biossido di azoto, ossido nitrico, PM10, PM25 e anidride solforosa.
+![](https://github.com/ChiaraAmalia/DataScience2Project/blob/main/img_doc/rilevanza_agenti_inquinanti.png)
+Percentuali significative corrispondono al PM10 e al NO, i quali, insieme, raggiungono il 40% del totale.
+
+## Distribuzioni
+Lo step successivo è stato quello di valutare la distribuzione della concentrazione degli agenti inquinanti più significativi, presenti all’interno del dataset.
+
+## Analisi Temporali
+In questa analisi siamo andati quindi a visualizzare l'andamento temporale dei vari agenti chimici presenti nell'aria.
+
+## Analisi Geografiche 
+In questa anlisi siamo andati a visualizzare la concentrazione di inquinamento in ciascuna area della città, riportando risulati significativi soprattutto nelle zone industriali.
+
+## Clustering
+Prima di descrivere i risultati ottenuti tramite le varie tecniche di clustering, occorre specificare quali sono state le azioni fatte sul dataset per ottenere tali risultati. Il primo algoritmo utilizzato è stato i K-means, il quale, lavorando sulle distanze non ammetteva valori Nan. Abbiamo valutato se eliminare direttamente tali valori, oppure, se sostituirli con una media troncata. Il dataset presenta alcune problematiche relative alla presenza di valori Nan, ad esempio abbiamo il problema che alcune stazioni, per un mese, o per lunghi inter-valli di tempo, non hanno misurato un certo agente inquinante, oppure, lo hanno misurato pochissime volte. Nel calcolo della media troncata abbiamo operato due suddivisioni per ottenere un valore molto preciso. Noi calcolavamo per ogni agente inquinante usato per l’analisi, abbiamo preso i singoli anni, e per ogni anno abbiamo considerato le singole stazioni.
+A causa della presenza di troppi valori Nan, o solo valori Nan, la funzione usata per il calcolo della media troncata restituiva un valore Nan. Quindi, abbiamo dovuto utilizzare un valore medio più ampio, che era quello annuale. Questa soluzione generava una nuova problematica, infatti, i punti non erano più distribuiti in maniera omogenea, avevamo dei fasci di punti con un parametro costante, e questo sbilanciava i cluster. Di conseguenza abbiamo scelto di procedere con un approccio ibrido, cioè, dove possibile sostituiamo i Nan con le medie troncate. Dove ciò non è possibile procediamo con la rimozione del valore.
+La seconda operazione che è stata fatta è relativa solo a due algoritmi di clustering, il gerarchico e il DBSCAN. Abbiamo dovuto ridurre le dimensioni del dataset per motivi computazionali e di tempo. Infatti, lavorando in un ambiente locale non è possibile eseguire quest’analisi su dataset con oltre un milione di righe, quindi abbiamo estratto casualmente elementi da ogni singolo anno del dataset e, mettendoli insieme, abbiamo ottenuto un nuovo dataset. Come prima operazione di clustering abbiamo preso in considerazione i campi relativi al biossido di azoto (NO_2) e l’anidride solforosa (SO_2). Si è deciso poi di effettuare un'ulteriore operazione di clustering, prendendo in considerazione una nuova coppia di agenti inquinanti, ovvero PM10 e SO_2.
 
 ## Tecnologie utilizzate
-### Python
+<ul>
+  <li>Python</li>
+  <li>Pandas</li>
+  <li>Sklearn</li>
+  <li>Seaborn</li>
+  <li>Statsmodel</li>
+  <li>Matplotlib</li>
+</ul>
 
-### Pandas
-
-### Seaborn 
-
-### Matplotlib
-
-### Sklearn
-
-###Statsmodel
-
+Ulteriori dettagli relativi alle analisi effettuate sono riportati nella seguente [relazione](https://github.com/ChiaraAmalia/DataScience2Project/blob/main/Relazione_Classificazione_Regressione_SerieTemporali.pdf)
